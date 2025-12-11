@@ -17,6 +17,9 @@ public class TicketMachine
     private int balance;
     // The total amount of money collected by this machine.
     private int total;
+    private int score;
+    private int age;
+    private boolean alive;
 
     /**
      * Create a machine that issues tickets of the given price.
@@ -74,5 +77,25 @@ public class TicketMachine
         total = total + balance;
         // Clear the balance.
         balance = 0;
+    }
+    
+    public int getTotal(){
+        return total;
+    }
+    
+    public void increaseScore(int points){
+        score = score + points;
+    }      
+
+    public void discount(int amount){
+        price = price - amount;
+    }
+    
+    public void setAge(int age){
+        this.age = age;
+    }
+    
+    public void isAlive(boolean alive){
+        this.alive = alive;
     }
 }
