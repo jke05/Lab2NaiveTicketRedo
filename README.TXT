@@ -84,3 +84,28 @@ student.addCredits(5); // credits could be whatever int value you'd like
 35. public void isAlive(boolean alive){
         this.alive = alive;
     }
+    
+36. price = 0
+
+37. "My cat has green eyes."
+
+38. public void prompt(){
+        System.out.println("Please insert the correct amount of money");
+    }
+    
+39. "# price cents."
+
+40. same thing as 39
+
+41. public void showPrice(){
+        System.out.println("The price of a ticket is " + price + " cents."); 
+    }
+    
+42. they don't show the same output because the value of price is
+different in both objects
+
+43. It prints the same thing as the println statement and I have no clue why
+
+44. If I take out the parameter of the constructor and set the price at 1000 cents,
+the price of a ticket will be 1000 tickets for any object that will
+be created from the TicketMachine class.
