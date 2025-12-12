@@ -109,3 +109,21 @@ different in both objects
 44. If I take out the parameter of the constructor and set the price at 1000 cents,
 the price of a ticket will be 1000 tickets for any object that will
 be created from the TicketMachine class.
+
+45. public TicketMachine(int cost)
+    {
+        price = cost;
+        balance = 0;
+        total = 0;
+    }
+    
+    public TicketMachine(){
+        price = 1000;
+        balance = 0;
+        total = 0;
+    }
+    
+46. public void empty(){
+        total = 0;
+    }
+    mutator
